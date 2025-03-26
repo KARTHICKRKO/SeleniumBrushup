@@ -29,17 +29,7 @@ public class PracticeDynamicebootstrapTable {
 		int pagesize = allpages.size();
 		System.out.println("Size of the page is :" + pagesize);
 
-		/*
-		 * for (int r = 1; r <= pagesize; r++) { String Username =
-		 * driver.findElement(By.xpath("//div[@role=" + r +
-		 * "]//div[@role='columnheader'][2]")) .getText(); String Ename =
-		 * driver.findElement(By.xpath("//div[@role=" + r +
-		 * "]//div[@role='columnheader'][4]")) .getText();
-		 * 
-		 * System.out.println(Username + "\t" + Ename);
-		 * 
-		 * }
-		 */
+		
 		//2. Reading all the datas from the table
 		List<WebElement> rows = driver.findElements(
 				By.xpath("//div[@role='table']//div[@role='row' and contains(@class, 'oxd-table-row--with-border')]"));
