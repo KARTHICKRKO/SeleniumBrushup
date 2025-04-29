@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-29T17:39:38 IST" name="groupingsuite" finished-at="2025-04-29T17:39:38 IST" duration-ms="166">
+    <groups>
+      <group name="regression">
+        <method signature="Signupgrouping.emailsignup()[pri:1, instance:groupingmethods.Signupgrouping@4b45a2f5]" name="emailsignup" class="groupingmethods.Signupgrouping"/>
+        <method signature="Signupgrouping.facebooksignup()[pri:2, instance:groupingmethods.Signupgrouping@4b45a2f5]" name="facebooksignup" class="groupingmethods.Signupgrouping"/>
+        <method signature="Signupgrouping.twittersignup()[pri:3, instance:groupingmethods.Signupgrouping@4b45a2f5]" name="twittersignup" class="groupingmethods.Signupgrouping"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="Logingrouping.loginbymail()[pri:1, instance:groupingmethods.Logingrouping@4d5650ae]" name="loginbymail" class="groupingmethods.Logingrouping"/>
+        <method signature="Logingrouping.loginbyfacebook()[pri:2, instance:groupingmethods.Logingrouping@4d5650ae]" name="loginbyfacebook" class="groupingmethods.Logingrouping"/>
+        <method signature="Logingrouping.loginbytwitter()[pri:3, instance:groupingmethods.Logingrouping@4d5650ae]" name="loginbytwitter" class="groupingmethods.Logingrouping"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2025-04-29T17:39:38 IST" name="groupingtest" finished-at="2025-04-29T17:39:38 IST" duration-ms="166">
+      <class name="groupingmethods.Logingrouping">
+        <test-method signature="loginbymail()[pri:1, instance:groupingmethods.Logingrouping@4d5650ae]" started-at="2025-04-29T17:39:38 IST" name="loginbymail" finished-at="2025-04-29T17:39:38 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginbymail -->
+        <test-method signature="loginbyfacebook()[pri:2, instance:groupingmethods.Logingrouping@4d5650ae]" started-at="2025-04-29T17:39:38 IST" name="loginbyfacebook" finished-at="2025-04-29T17:39:38 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginbyfacebook -->
+        <test-method signature="loginbytwitter()[pri:3, instance:groupingmethods.Logingrouping@4d5650ae]" started-at="2025-04-29T17:39:38 IST" name="loginbytwitter" finished-at="2025-04-29T17:39:38 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginbytwitter -->
+      </class> <!-- groupingmethods.Logingrouping -->
+      <class name="groupingmethods.Signupgrouping">
+        <test-method signature="emailsignup()[pri:1, instance:groupingmethods.Signupgrouping@4b45a2f5]" started-at="2025-04-29T17:39:38 IST" name="emailsignup" finished-at="2025-04-29T17:39:38 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailsignup -->
+        <test-method signature="facebooksignup()[pri:2, instance:groupingmethods.Signupgrouping@4b45a2f5]" started-at="2025-04-29T17:39:38 IST" name="facebooksignup" finished-at="2025-04-29T17:39:38 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebooksignup -->
+        <test-method signature="twittersignup()[pri:3, instance:groupingmethods.Signupgrouping@4b45a2f5]" started-at="2025-04-29T17:39:38 IST" name="twittersignup" finished-at="2025-04-29T17:39:38 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twittersignup -->
+      </class> <!-- groupingmethods.Signupgrouping -->
+    </test> <!-- groupingtest -->
+  </suite> <!-- groupingsuite -->
+</testng-results>
